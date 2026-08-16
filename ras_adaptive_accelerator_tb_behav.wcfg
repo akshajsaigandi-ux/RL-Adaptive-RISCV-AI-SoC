@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ras_adaptive_accelerator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ras_adaptive_accelerator_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="196,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="197,002 ps"></ZoomEndTime>
+      <Cursor1Time time="197,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/cycle_count" type="array">
+      <obj_property name="ElementShortName">cycle_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/utilization" type="array">
+      <obj_property name="ElementShortName">utilization[31:0]</obj_property>
+      <obj_property name="ObjectShortName">utilization[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/data_a_bus" type="array">
+      <obj_property name="ElementShortName">data_a_bus[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_a_bus[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/data_b_bus" type="array">
+      <obj_property name="ElementShortName">data_b_bus[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_b_bus[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/pe_outputs" type="array">
+      <obj_property name="ElementShortName">pe_outputs[255:0]</obj_property>
+      <obj_property name="ObjectShortName">pe_outputs[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/active_pe_count" type="array">
+      <obj_property name="ElementShortName">active_pe_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">active_pe_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/selected_action" type="array">
+      <obj_property name="ElementShortName">selected_action[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_action[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/reward" type="array">
+      <obj_property name="ElementShortName">reward[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reward[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/learning_valid" type="logic">
+      <obj_property name="ElementShortName">learning_valid</obj_property>
+      <obj_property name="ObjectShortName">learning_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/measured_cycles" type="array">
+      <obj_property name="ElementShortName">measured_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">measured_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/active_pe_cycles" type="array">
+      <obj_property name="ElementShortName">active_pe_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">active_pe_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/measured_utilization" type="array">
+      <obj_property name="ElementShortName">measured_utilization[31:0]</obj_property>
+      <obj_property name="ObjectShortName">measured_utilization[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/performance_completed" type="logic">
+      <obj_property name="ElementShortName">performance_completed</obj_property>
+      <obj_property name="ObjectShortName">performance_completed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ras_adaptive_accelerator_tb/MAX_PES" type="array">
+      <obj_property name="ElementShortName">MAX_PES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_PES[31:0]</obj_property>
+   </wvobject>
+</wave_config>

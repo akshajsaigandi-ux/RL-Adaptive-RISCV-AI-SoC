@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Aug 15 11:07:57 2026
+# Process ID         : 21128
+# Current directory  : C:/Users/aksha/Downloads/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC.runs/impl_1
+# Command line       : vivado.exe -log ras_fpga_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ras_fpga_top.tcl -notrace
+# Log file           : C:/Users/aksha/Downloads/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC.runs/impl_1/ras_fpga_top.vdi
+# Journal file       : C:/Users/aksha/Downloads/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC.runs/impl_1\vivado.jou
+# Running On         : Akshaj
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13650HX
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 25463 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 27074 MB
+# Available Virtual  : 10694 MB
+#-----------------------------------------------------------
+source ras_fpga_top.tcl -notrace

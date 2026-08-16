@@ -1,0 +1,22 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ras_adaptive_accelerator_tb_behav xil_defaultlib.ras_adaptive_accelerator_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/aksha/Downloads/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC/RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/active_pe_count.sv" Line 1. Module ras_pe_array_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ras_rl_state_encoder
+Compiling module xil_defaultlib.ras_rl_controller
+Compiling module xil_defaultlib.ras_mac_unit
+Compiling module xil_defaultlib.ras_processing_element
+Compiling module xil_defaultlib.ras_pe_array_default
+Compiling module xil_defaultlib.ras_performance_monitor
+Compiling module xil_defaultlib.ras_adaptive_accelerator
+Compiling module xil_defaultlib.ras_adaptive_accelerator_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ras_adaptive_accelerator_tb_behav

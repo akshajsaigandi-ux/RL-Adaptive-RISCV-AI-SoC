@@ -1,0 +1,7 @@
+Running: xsim.dir/ras_pe_array_controller_tb_behav/xsimk.exe -simmode gui -wdb ras_pe_array_controller_tb_behav.wdb -simrunnum 0 -socket 49463
+Design successfully loaded
+Design Loading Memory Usage: 11024 KB (Peak: 11024 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 11940 KB (Peak: 11940 KB)
+Simulation CPU Usage: 30 ms

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1786772270">
+  <File Type="PA-TCL" Name="ras_fpga_top.tcl"/>
+  <File Type="REPORTS-TCL" Name="ras_fpga_top_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="ras_fpga_top_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="ras_fpga_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ras_fpga_top_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="ras_fpga_top_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="ras_fpga_top_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ras_fpga_top_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ras_fpga_top.hwdef"/>
+  <File Type="OPT-TIMING" Name="ras_fpga_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="ras_fpga_top_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="ras_fpga_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ras_fpga_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ras_fpga_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ras_fpga_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ras_fpga_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ras_fpga_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ras_fpga_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ras_fpga_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ras_fpga_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ras_fpga_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ras_fpga_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ras_fpga_top_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="ras_fpga_top_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ras_fpga_top_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ras_fpga_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ras_fpga_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ras_fpga_top_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="ras_fpga_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ras_fpga_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ras_fpga_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ras_fpga_top_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="ras_fpga_top_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="ras_fpga_top_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="ras_fpga_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ras_fpga_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ras_fpga_top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ras_fpga_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ras_fpga_top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ras_fpga_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ras_fpga_top_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ras_fpga_top_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ras_fpga_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ras_fpga_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ras_fpga_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ras_fpga_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ras_fpga_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ras_fpga_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ras_fpga_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ras_fpga_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ras_fpga_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ras_fpga_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ras_fpga_top_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="ras_fpga_top_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ras_fpga_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ras_fpga_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ras_fpga_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ras_fpga_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ras_fpga_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ras_fpga_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ras_fpga_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ras_fpga_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="ras_fpga_top.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="ras_fpga_top.ncr"/>
+  <File Type="BG-BIT" Name="ras_fpga_top.bit"/>
+  <File Type="BG-BIN" Name="ras_fpga_top.bin"/>
+  <File Type="BITSTR-MSK" Name="ras_fpga_top.msk"/>
+  <File Type="BITSTR-RBT" Name="ras_fpga_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="ras_fpga_top.nky"/>
+  <File Type="BITSTR-BMM" Name="ras_fpga_top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ras_fpga_top.mmi"/>
+  <File Type="PDI-FILE" Name="ras_fpga_top.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="ras_fpga_top_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="ras_fpga_top_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="ras_fpga_top.rcfi"/>
+  <File Type="CFI_FILE" Name="ras_fpga_top.cfi"/>
+  <File Type="RNPI_FILE" Name="ras_fpga_top.rnpi"/>
+  <File Type="RCDO-FILE" Name="ras_fpga_top.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="ras_fpga_top_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="ras_fpga_top_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="ras_fpga_top_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="ras_fpga_top_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="ras_fpga_top_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="ras_fpga_top_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="ras_fpga_top_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="ras_fpga_top_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="ras_fpga_top_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="ras_fpga_top_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="ras_fpga_top_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="ras_fpga_top_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="ras_fpga_top_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="ras_fpga_top_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="ras_fpga_top_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="ras_fpga_top.npi"/>
+  <File Type="RBD_FILE" Name="ras_fpga_top.rbd"/>
+  <File Type="MMI-FILE" Name="ras_fpga_top.mmi"/>
+  <File Type="BIF-FILE" Name="ras_fpga_top.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="ras_fpga_top_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="ras_fpga_top_pld.bif"/>
+  <File Type="LTX-FILE" Name="ras_fpga_top.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="ras_fpga_top_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="ras_fpga_top_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ras_fpga_top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ras_fpga_top.sysdef"/>
+  <File Type="BG-BGN" Name="ras_fpga_top.bgn"/>
+  <File Type="BG-DRC" Name="ras_fpga_top.drc"/>
+  <File Type="RDI-RDI" Name="ras_fpga_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="ras_fpga_top_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="ras_fpga_top_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ras_q_learning_controller.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_q_learning_update.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_pe_array_controller.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_rl_policy.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/active_pe_count.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_adaptive_accelerator.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_alu.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_control_unit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_data_memory.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_instruction_decoder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_instruction_memory.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_mac_unit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_performance_monitor.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_processing_element.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_program_counter.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_register_file.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_riscv_core.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_rl_controller.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_rl_state_encoder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ras_fpga_top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ras_fpga_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/config.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/ras_riscv_core.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/config.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/ras_riscv_core.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_2"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Performance_ExplorePostRoutePhysOpt" Flow="Vivado Implementation 2025"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">0</Option>
+      <Option Id="MoreOptsStr"><![CDATA[-tns_cleanup]]></Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design" EnableStepBool="1">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

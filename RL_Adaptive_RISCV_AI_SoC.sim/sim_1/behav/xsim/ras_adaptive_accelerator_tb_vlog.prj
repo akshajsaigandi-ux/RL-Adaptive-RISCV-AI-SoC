@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/active_pe_count.sv" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/ras_adaptive_accelerator.sv" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/ras_mac_unit.sv" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/ras_performance_monitor.sv" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/ras_processing_element.sv" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/ras_rl_controller.sv" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sources_1/new/ras_rl_state_encoder.sv" \
+"../../../../RL_Adaptive_RISCV_AI_SoC.srcs/sim_1/new/ras_adaptive_accelerator_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

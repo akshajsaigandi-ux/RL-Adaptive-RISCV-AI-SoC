@@ -1,0 +1,7 @@
+Running: xsim.dir/ras_integrated_stress_tb_behav/xsimk.exe -simmode gui -wdb ras_integrated_stress_tb_behav.wdb -simrunnum 0 -socket 59924
+Design successfully loaded
+Design Loading Memory Usage: 11260 KB (Peak: 11260 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 12212 KB (Peak: 12212 KB)
+Simulation CPU Usage: 30 ms
