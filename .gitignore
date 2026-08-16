@@ -2,19 +2,22 @@
 *.jou
 *.log
 *.str
-*.cache
-*.hw
-*.ip_user_files
-*.sim
-*.runs
-*.gen
-*.Xil
-
-# Simulation outputs
-xsim.dir/
 *.wdb
 *.pb
 
-# Temporary files
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# Build folders
+*.runs/
+*.gen/
+*.sim/
+
+# XSIM
+xsim.dir/
+
+# Temporary
 *.tmp
 *.bak
