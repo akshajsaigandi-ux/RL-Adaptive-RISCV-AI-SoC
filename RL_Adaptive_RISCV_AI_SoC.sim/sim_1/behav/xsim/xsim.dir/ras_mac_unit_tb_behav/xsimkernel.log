@@ -1,7 +1,0 @@
-Running: xsim.dir/ras_mac_unit_tb_behav/xsimk.exe -simmode gui -wdb ras_mac_unit_tb_behav.wdb -simrunnum 0 -socket 58032
-Design successfully loaded
-Design Loading Memory Usage: 11028 KB (Peak: 11028 KB)
-Design Loading CPU Usage: 46 ms
-Simulation completed
-Simulation Memory Usage: 11948 KB (Peak: 11948 KB)
-Simulation CPU Usage: 61 ms

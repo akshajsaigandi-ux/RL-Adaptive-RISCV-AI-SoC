@@ -10,7 +10,7 @@
 *.hw/
 *.ip_user_files/
 
-# Build folders
+# Generated build folders
 *.runs/
 *.gen/
 *.sim/

@@ -1,7 +1,0 @@
-Running: xsim.dir/ras_rl_controller_tb_behav/xsimk.exe -simmode gui -wdb ras_rl_controller_tb_behav.wdb -simrunnum 0 -socket 64386
-Design successfully loaded
-Design Loading Memory Usage: 11044 KB (Peak: 11044 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 11960 KB (Peak: 11960 KB)
-Simulation CPU Usage: 31 ms
