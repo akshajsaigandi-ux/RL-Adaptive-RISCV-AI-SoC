@@ -17,7 +17,61 @@ A SystemVerilog-based FPGA implementation of an adaptive RISC-V AI SoC that comb
 
 ## Architecture
 
-> *(Architecture block diagram will be added here.)*
+The RTL design integrates an RV32I RISC-V processor with a reinforcement learning controller and an adaptive accelerator for dynamic workload optimization.
+
+![RTL Architecture](images/rtl_architecture.png)
+
+---
+
+## Simulation Results
+
+Behavioral simulation was performed in Xilinx Vivado to verify processor execution, accelerator activation, and RL adaptation.
+
+![Simulation Waveform](images/simulation_waveform.png)
+
+---
+
+## FPGA Implementation Results
+
+### Resource Utilization
+
+| Resource | Used |
+|----------|------|
+| Slice LUTs | 10,632 |
+| Slice Registers | 9,945 |
+| F7 Muxes | 1,184 |
+| F8 Muxes | 544 |
+| Bonded IOB | 6 |
+| BUFGCTRL | 1 |
+
+![Resource Utilization](images/resource_utilization.png)
+
+### Timing Summary
+
+The implementation met all specified timing constraints.
+
+- Worst Negative Slack (WNS): **0.221 ns**
+- Total Negative Slack (TNS): **0 ns**
+- Worst Hold Slack (WHS): **0.106 ns**
+- Failing Endpoints: **0**
+
+![Timing Summary](images/timing_summary.png)
+
+---
+
+## Reinforcement Learning Performance
+
+### Training Reward
+
+The RL controller shows convergence with the moving average stabilizing around **14–15 reward** after extended training.
+
+![RL Reward](images/rl_training_reward.png)
+
+### Processor Cycle Count
+
+Processor execution adapts over time as the RL controller optimizes accelerator utilization.
+
+![Cycle Count](images/processor_cycle_count.png)
 
 ## Project Structure
 
