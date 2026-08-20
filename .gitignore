@@ -1,23 +1,39 @@
-# Vivado generated files
+# ==========================
+# Xilinx Vivado
+# ==========================
+
+# Logs
 *.jou
 *.log
 *.str
-*.wdb
 *.pb
 
+# Simulation
+*.wdb
+*.wcfg
+xsim.dir/
+
+# Build directories
 .Xil/
 *.cache/
+*.gen/
+*.runs/
+*.sim/
 *.hw/
 *.ip_user_files/
 
-# Generated build folders
-*.runs/
-*.gen/
-*.sim/
+# Generated implementation files
+*.dcp
+*.vdi
+*.vds
+*.rlx
+*.rpx
+*.rpt
 
-# XSIM
-xsim.dir/
-
-# Temporary
+# Temporary files
 *.tmp
 *.bak
+
+# OS files
+.DS_Store
+Thumbs.db
