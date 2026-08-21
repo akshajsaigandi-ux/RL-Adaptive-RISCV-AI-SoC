@@ -22,6 +22,19 @@ The project demonstrates how reinforcement learning techniques can be integrated
 
 ---
 
+## Quick Results
+
+| Metric | Result |
+|--------|-------:|
+| RL Training | **5,000 Episodes** |
+| Slice LUT Utilization | **10,632 (≈17%)** |
+| Worst Negative Slack | **0.221 ns** |
+| Total Negative Slack | **0 ns** |
+| Worst Hold Slack | **0.106 ns** |
+| Adaptive PE Modes | **2, 4, and 8 PE** |
+
+---
+
 ## Key Features
 
 - RV32I RISC-V Processor Core
@@ -36,7 +49,7 @@ The project demonstrates how reinforcement learning techniques can be integrated
 
 ---
 
-## System Architecture
+# System Architecture
 
 The SoC integrates a traditional RV32I processor with an RL-based adaptive hardware subsystem.
 
@@ -44,7 +57,7 @@ The SoC integrates a traditional RV32I processor with an RL-based adaptive hardw
   <img src="images/rtl_architecture.png" alt="RTL Architecture" width="900"/>
 </p>
 
-### Major Components
+## Major Components
 
 | Component | Purpose |
 |-----------|---------|
@@ -57,7 +70,7 @@ The SoC integrates a traditional RV32I processor with an RL-based adaptive hardw
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
 RL-Adaptive-RISCV-AI-SoC/
@@ -88,7 +101,7 @@ RL-Adaptive-RISCV-AI-SoC/
 
 ---
 
-## RTL Modules
+# RTL Modules
 
 | Module | Function |
 |--------|----------|
@@ -106,11 +119,11 @@ RL-Adaptive-RISCV-AI-SoC/
 
 ---
 
-## Verification
+# Verification
 
 The project includes extensive SystemVerilog verification for both individual modules and integrated system behavior.
 
-### Verified Modules
+## Verified Modules
 
 - ALU
 - Register File
@@ -126,7 +139,7 @@ The project includes extensive SystemVerilog verification for both individual mo
 
 ---
 
-## Simulation Results
+# Simulation Results
 
 Behavioral simulation was performed in **Xilinx Vivado** to verify processor execution, accelerator activation, and reinforcement learning adaptation.
 
@@ -191,6 +204,8 @@ This indicates successful FPGA implementation without timing violations.
 
 The reinforcement learning subsystem was evaluated using **5,000 training episodes** to observe convergence behavior, dynamic Processing Element allocation, and processor adaptation.
 
+---
+
 ## Training Reward
 
 The moving-average reward demonstrates stable convergence throughout long-duration Q-learning training.
@@ -225,7 +240,7 @@ The decreasing cycle-count variability indicates increasingly efficient workload
 The RL controller continuously adjusts Processing Element (PE) utilization based on workload demands.
 
 <p align="center">
-  <img src="images/pe_utilization_training.png" alt="PE Utilization" width="900"/>
+  <img src="images/pe_utilization_training.png" alt="PE Utilization During Training" width="900"/>
 </p>
 
 ### Key Insights
@@ -242,7 +257,7 @@ The RL controller continuously adjusts Processing Element (PE) utilization based
 The RL controller dynamically selects between **2 PE, 4 PE, and 8 PE** configurations depending on workload characteristics.
 
 <p align="center">
-  <img src="images/rl_pe_selection.png" alt="RL PE Selection" width="900"/>
+  <img src="images/rl_pe_selection.png" alt="RL PE Selection During Training" width="900"/>
 </p>
 
 This demonstrates workload-aware hardware adaptation instead of fixed accelerator allocation.
@@ -254,7 +269,7 @@ This demonstrates workload-aware hardware adaptation instead of fixed accelerato
 The adaptive RL policy was compared against fixed Processing Element configurations.
 
 <p align="center">
-  <img src="images/avg_cycle_comparison.png" alt="Average Cycle Comparison" width="900"/>
+  <img src="images/avg_cycle_comparison.png" alt="Average Cycle Count Comparison" width="900"/>
 </p>
 
 | Configuration | Average Cycle Count |
@@ -271,7 +286,7 @@ The RL controller substantially reduces execution latency compared with smaller 
 ## Maximum Cycle Count Comparison
 
 <p align="center">
-  <img src="images/max_cycle_comparison.png" alt="Maximum Cycle Comparison" width="900"/>
+  <img src="images/max_cycle_comparison.png" alt="Maximum Cycle Count Comparison" width="900"/>
 </p>
 
 | Configuration | Maximum Cycle Count |
@@ -339,7 +354,7 @@ GitHub: **akshajsaigandi-ux**
 
 ---
 
-## Repository Highlights
+# Repository Highlights
 
 - Modular SystemVerilog implementation
 - Complete RTL architecture
@@ -348,6 +363,6 @@ GitHub: **akshajsaigandi-ux**
 - Processing Element (PE) array management
 - FPGA synthesis and implementation
 - Verified timing closure
-- 5,000-episode reinforcement learning evaluation
-- Dynamic 2/4/8 PE selection strategy
+- **5,000-episode reinforcement learning evaluation**
+- Dynamic **2/4/8 PE selection strategy**
 - Comprehensive simulation and verification
