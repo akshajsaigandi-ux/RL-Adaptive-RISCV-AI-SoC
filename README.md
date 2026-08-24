@@ -35,10 +35,13 @@ The project demonstrates how reinforcement learning techniques can be integrated
 | Metric | Result |
 |--------|-------:|
 | RL Training | **5,000 Episodes** |
-| Slice LUT Utilization | **10,632 (≈17%)** |
-| Worst Negative Slack | **0.221 ns** |
+| LUT Utilization | **622 / 63,400 (0.98%)** |
+| Flip-Flop Utilization | **729 / 126,800 (0.57%)** |
+| I/O Utilization | **6 / 210 (2.86%)** |
+| Worst Negative Slack | **+0.145 ns** |
 | Total Negative Slack | **0 ns** |
-| Worst Hold Slack | **0.106 ns** |
+| Worst Hold Slack | **+0.095 ns** |
+| Total Hold Slack | **0 ns** |
 | Adaptive PE Modes | **2, 4, and 8 PE** |
 
 ---
