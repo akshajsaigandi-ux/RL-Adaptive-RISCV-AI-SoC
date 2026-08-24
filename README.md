@@ -271,7 +271,7 @@ The complete design was synthesized and implemented in **Xilinx Vivado**.
 
 *Figure 3. FPGA resource utilization after implementation.*
 
-The implementation utilizes approximately **17%** of available Slice LUT resources while maintaining an efficient register and routing footprint.
+The implementation utilizes approximately **0.98%** of available LUT resources and **0.57%** of available flip-flops while maintaining an efficient register and routing footprint.
 
 ### Timing Performance
 
