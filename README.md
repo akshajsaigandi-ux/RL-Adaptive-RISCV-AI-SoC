@@ -254,12 +254,12 @@ Behavioral simulation was performed in **Xilinx Vivado** to verify processor exe
 
 The complete design was synthesized and implemented in **Xilinx Vivado**.
 
-### Resource Utilization
-
 | Resource | Utilization |
 |----------|------------:|
-| Slice LUTs | **10,632** |
-| Slice Registers | **9,945** |
+| LUT | **622 / 63,400 (0.98%)** |
+| Flip-Flop | **729 / 126,800 (0.57%)** |
+| Bonded IOB | **6 / 210 (2.86%)** |
+| BUFGCTRL | **1 / 32 (3.13%)** |
 | F7 Muxes | **1,184** |
 | F8 Muxes | **544** |
 | Bonded IOB | **6** |
