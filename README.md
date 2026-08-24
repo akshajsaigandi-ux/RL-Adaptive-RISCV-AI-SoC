@@ -279,9 +279,10 @@ All specified timing constraints were successfully met.
 
 | Metric | Result |
 |--------|-------:|
-| Worst Negative Slack (WNS) | **0.221 ns** |
+| Worst Negative Slack (WNS) | **+0.145 ns** |
 | Total Negative Slack (TNS) | **0 ns** |
-| Worst Hold Slack (WHS) | **0.106 ns** |
+| Worst Hold Slack (WHS) | **+0.095 ns** |
+| Total Hold Slack (THS) | **0 ns** |
 | Hold Violations | **0** |
 | Failing Endpoints | **0** |
 
