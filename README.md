@@ -390,7 +390,7 @@ This demonstrates that the RL controller can adapt the accelerator configuration
 | Fixed 8 PE | **5** |
 | RL Adaptive | **7** |
 
-The adaptive controller maintains lower worst-case execution behavior than smaller fixed PE configurations.
+The RL-Adaptive configuration maintains a lower worst-case cycle count than the smaller fixed configurations while dynamically selecting the available PE resources according to workload characteristics.
 
 ---
 
