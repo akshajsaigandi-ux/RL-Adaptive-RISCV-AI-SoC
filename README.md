@@ -371,7 +371,9 @@ The controller dynamically selects between **2 PE**, **4 PE**, and **8 PE** conf
 | Fixed 8 PE | **3.5** |
 | RL Adaptive | **4.7** |
 
-The RL controller substantially reduces execution latency compared with smaller fixed configurations while dynamically balancing hardware resources.
+The RL controller dynamically selects between **2 PE, 4 PE, and 8 PE configurations** based on workload characteristics. The RL-Adaptive configuration achieves an average execution time of **4.7 cycles**, providing a workload-aware trade-off between performance and hardware resource utilization rather than optimizing for minimum latency alone.
+
+This demonstrates that the RL controller can adapt the accelerator configuration according to workload requirements instead of continuously operating at the maximum PE configuration.
 
 ---
 
