@@ -23,10 +23,12 @@ The project demonstrates how reinforcement learning techniques can be integrated
 ## Project Impact
 
 - Designed a complete **RV32I RISC-V System-on-Chip** with adaptive hardware control.
-- Integrated a **Q-Learning controller** directly into RTL.
-- Successfully synthesized and implemented the design in **Xilinx Vivado**.
-- Achieved **timing closure** with no failing endpoints.
+- Integrated a **Q-Learning controller** directly into SystemVerilog RTL.
+- Developed an adaptive accelerator supporting **2 PE, 4 PE, and 8 PE configurations**.
+- Successfully synthesized and implemented the complete design using **Xilinx Vivado**.
+- Achieved **timing closure with 0 failing endpoints**.
 - Evaluated adaptive behavior across **5,000 reinforcement learning training episodes**.
+- Demonstrated workload-aware **dynamic PE resource allocation** using reinforcement learning.
 
 ---
 
