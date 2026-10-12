@@ -8,6 +8,9 @@
   <img src="https://img.shields.io/badge/RISC--V-RV32I-green?style=for-the-badge" alt="RV32I">
   <img src="https://img.shields.io/badge/Reinforcement-Learning-orange?style=for-the-badge" alt="Reinforcement Learning">
   <img src="https://img.shields.io/badge/FPGA-Implementation-purple?style=for-the-badge" alt="FPGA">
+  <img src="https://img.shields.io/badge/ASIC-Physical%20Design-darkblue?style=for-the-badge" alt="ASIC Physical Design">
+  <img src="https://img.shields.io/badge/GDSII-Layout-orange?style=for-the-badge" alt="GDSII Layout">
+  <img src="https://img.shields.io/badge/IEEE-Xplore%20Publication-blue?style=for-the-badge" alt="IEEE Xplore Publication">
 </p>
 
 ---
@@ -61,6 +64,8 @@ The project demonstrates how reinforcement learning techniques can be integrated
 - [Verification](#verification)
 - [Simulation Results](#simulation-results)
 - [FPGA Implementation Results](#fpga-implementation-results)
+- [ASIC Physical Design and GDSII](#asic-physical-design-and-gdsii)
+- [Research Publication](#research-publication)
 - [Reinforcement Learning Performance](#reinforcement-learning-performance)
 - [Technology Stack](#technology-stack)
 - [Future Improvements](#future-improvements)
@@ -294,6 +299,48 @@ All specified timing constraints were successfully met.
 
 *Figure 4. Vivado timing summary confirming successful timing closure.*
 
+
+---
+
+## ASIC Physical Design and GDSII
+
+In addition to the FPGA implementation documented above, the `ras_fpga_top` design has been taken through digital ASIC physical-design work using **Cadence Innovus**. The flow includes implementation and layout stream-out to the GDSII format.
+
+### ASIC Implementation Summary
+
+| Item | Details |
+|------|---------|
+| Design | `ras_fpga_top` |
+| Physical Design Tool | Cadence Innovus 21.15-s110_1 |
+| Target Technology | GPDK045 45 nm (as configured in the implementation flow) |
+| Layout Output | GDSII stream-out |
+| Layout File Name | `ras_fpga_top.gds` (use the exact filename produced by your run) |
+| Verification | Innovus DRC and connectivity checks |
+| Current Verification Note | DRC/connectivity logs included reported violations; resolve and rerun the checks before claiming clean signoff |
+
+### What This Milestone Demonstrates
+
+- Experience progressing a digital RTL design into the ASIC physical-design stage.
+- Familiarity with Cadence Innovus implementation and GDSII stream-out.
+- Exposure to physical verification, including DRC and connectivity checks.
+- Understanding that generating a GDSII file is distinct from completing clean foundry signoff or fabricating silicon.
+
+> **Status clarification:** GDSII generation documents layout export, not proof of a completed foundry tapeout. The reported Innovus logs included metal-short and connectivity issues, so do not describe the design as DRC-clean or LVS-clean unless updated verification reports confirm that status.
+
+---
+
+## Research Publication
+
+The PCSA research work is listed on IEEE Xplore:
+
+**Optimized Pipelined Carry-Save Adder (PCSA) for 16-Bit Cryptographic Arithmetic Units**
+
+- **Publication record:** [IEEE Xplore — Document 11681948](https://ieeexplore.ieee.org/document/11681948)
+- **Project connection:** Optimized pipelined carry-save arithmetic for cryptographic hardware.
+- **Implementation context:** The project work includes an FPGA implementation using Xilinx Artix-7 and Vivado, as documented in the project materials.
+
+Use the IEEE Xplore record for the official bibliographic details, author order, conference name, DOI, and publication year when preparing a formal citation.
+
 ---
 
 ## Reinforcement Learning Performance
@@ -417,6 +464,9 @@ The learned policy favors larger PE configurations for higher-performance worklo
 | HDL | SystemVerilog |
 | Architecture | RV32I RISC-V |
 | FPGA Tool | Xilinx Vivado |
+| ASIC Physical Design | Cadence Innovus |
+| Layout Output | GDSII stream-out |
+| Research Publication | IEEE Xplore |
 | Verification | SystemVerilog Testbenches |
 | AI Technique | Q-Learning |
 | Hardware Target | FPGA |
