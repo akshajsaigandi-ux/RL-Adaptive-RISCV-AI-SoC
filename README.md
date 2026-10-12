@@ -327,21 +327,7 @@ In addition to the FPGA implementation documented above, the `ras_fpga_top` desi
 
 > **Status clarification:** GDSII generation documents layout export, not proof of a completed foundry tapeout. The reported Innovus logs included metal-short and connectivity issues, so do not describe the design as DRC-clean or LVS-clean unless updated verification reports confirm that status.
 
----
 
-## Research Publication
-
-The PCSA research work is listed on IEEE Xplore:
-
-**Optimized Pipelined Carry-Save Adder (PCSA) for 16-Bit Cryptographic Arithmetic Units**
-
-- **Publication record:** [IEEE Xplore — Document 11681948](https://ieeexplore.ieee.org/document/11681948)
-- **Project connection:** Optimized pipelined carry-save arithmetic for cryptographic hardware.
-- **Implementation context:** The project work includes an FPGA implementation using Xilinx Artix-7 and Vivado, as documented in the project materials.
-
-Use the IEEE Xplore record for the official bibliographic details, author order, conference name, DOI, and publication year when preparing a formal citation.
-
----
 
 ## Reinforcement Learning Performance
 
